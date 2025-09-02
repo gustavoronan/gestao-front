@@ -1,0 +1,40 @@
+.header-user{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    background-color: #5c6780;
+}
+
+.pdr-container{
+    display: flex;
+    justify-content: space-around;
+    min-width: 50%;
+    color: #efeff0;
+    height: 40px;
+}
+
+.txt1{
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+
+
+
+ @media (max-width: 465px) {
+        .txt1{
+            font-size: smaller;
+        }
+
+        .pdr-container{
+            min-width: 70%;
+        }
+    }
+
+.img-finance img{
+    margin-top: 3px;
+    height: 30px;
+    width: 30px;
+}
