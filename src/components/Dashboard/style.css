@@ -1,0 +1,24 @@
+.dashboard{
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.bar{
+    width: 50%;
+    margin-top: 50px;
+}
+
+.bar h1{
+    margin-bottom: 40px;
+}
+
+
+.pie{
+    max-width: 50%;
+    margin-top: 50px;
+}
+
+.pie h1{
+  margin-bottom: 40px;
+}

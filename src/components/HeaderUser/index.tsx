@@ -9,8 +9,8 @@ export default function HeaderUser(){
                          <img src={finance} alt="" />
                     </div>
 
-                    <div className='txt1'>Despesa</div>
-                    <div className='txt1'>Categoria</div>
+                    <div className='txt1'> <p>Despesa</p></div>
+                    <div className='txt1'> <p> Categoria </p> </div>
                 </nav>
             </header>
         </>
