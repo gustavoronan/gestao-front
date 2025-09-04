@@ -4,10 +4,12 @@ import "./style.css";
 export default function Dashboard() {
 
   const despesas = [
-    { descricao: "Compras no supermercado", valor: 17, categoria: "Alimentação" },
-    { descricao: "Troca de óleo do carro", valor: 15, categoria: "Transporte" },
-    { descricao: "Reserva de emergência", valor: 20, categoria: "Emergência" },
+    { descricao: "Compras no supermercado", valor: 1000, categoria: "Alimentação" },
+    { descricao: "Troca de óleo do carro", valor: 300, categoria: "Transporte" },
+    { descricao: "Reserva de emergência", valor: 200, categoria: "Emergência" },
     { descricao: "Assinatura da Netflix", valor: 20, categoria: "Lazer" },
+    { descricao: "Fut de sexta", valor: 60, categoria: "Lazer" },
+    { descricao: "Lanches do Ifood", valor: 200, categoria: "Lazer" },
     { descricao: "Jantar", valor: 20, categoria: "Alimentação" },
   ];
 
